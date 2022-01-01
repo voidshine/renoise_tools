@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool doc_version="0">
+  <ApiVersion>6</ApiVersion>
+  <AutoUpgraded>true</AutoUpgraded>
+  <Id>com.voidshine.pyre</Id>
+  <Version>0.1</Version>
+  <Author>voidshine</Author>
+  <Name>pyre</Name>
+  <Category>MIDI</Category>
+  <Description>Build a Renoise workflow with the Akai Fire controller.</Description>
+  <Homepage>https://github.com/voidshine/renoise_tools</Homepage>
+</RenoiseScriptingTool>

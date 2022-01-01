@@ -1,0 +1,88 @@
+[2020-08-06][20:43:26.604145][common][INFO] logger initialized
+[2020-08-06][20:43:26.634145][pyre][INFO] s=546290,h=7575
+[2020-08-06][20:50:27.280411][pyre][DEBUG] pyre shutdown
+[2020-08-06][20:51:14.203333][common][INFO] logger initialized
+[2020-08-06][20:51:14.231316][pyre][INFO] s=546290,h=7575
+[2020-08-06][20:57:27.958006][pyre][DEBUG] pyre shutdown
+[2020-08-06][21:08:42.987102][common][INFO] logger initialized
+[2020-08-06][21:08:43.011118][pyre][INFO] s=546290,h=7575
+[2020-08-06][21:26:55.301726][pyre][DEBUG] pyre shutdown
+[2020-08-06][21:27:00.804936][common][INFO] logger initialized
+[2020-08-06][21:27:00.829899][pyre][INFO] s=546290,h=7575
+[2020-08-06][21:46:59.779886][common][INFO] logger initialized
+[2020-08-06][21:46:59.814867][pyre][INFO] s=546290,h=7575
+[2020-08-06][21:50:30.929739][common][INFO] logger initialized
+[2020-08-06][21:50:30.963720][pyre][INFO] s=546290,h=7575
+[2020-08-06][21:52:49.613596][common][INFO] logger initialized
+[2020-08-06][21:52:49.647571][pyre][INFO] s=546290,h=7575
+[2020-08-06][21:56:53.917535][common][INFO] logger initialized
+[2020-08-06][21:56:53.949549][pyre][INFO] s=546290,h=7575
+[2020-08-06][22:05:42.023950][common][INFO] logger initialized
+[2020-08-06][22:05:42.057925][pyre][INFO] s=546290,h=7575
+[2020-08-06][22:20:28.386586][common][INFO] logger initialized
+[2020-08-06][22:20:28.419543][pyre][INFO] s=546290,h=7575
+[2020-08-06][22:29:40.353848][common][INFO] logger initialized
+[2020-08-06][22:29:40.386829][pyre][INFO] s=546290,h=7575
+[2020-08-06][22:35:11.695845][common][INFO] logger initialized
+[2020-08-06][22:35:11.729822][pyre][INFO] s=546290,h=7575
+[2020-08-06][22:38:55.143712][common][INFO] logger initialized
+[2020-08-06][22:38:55.176693][pyre][INFO] s=546290,h=7575
+[2020-08-06][22:44:25.293428][common][INFO] logger initialized
+[2020-08-06][22:44:25.330407][pyre][INFO] s=546290,h=7575
+[2020-08-06][23:29:59.282012][common][INFO] logger initialized
+[2020-08-06][23:29:59.318991][pyre][INFO] s=546290,h=7575
+[2020-08-06][23:33:59.409150][common][INFO] logger initialized
+[2020-08-06][23:33:59.439130][pyre][INFO] s=546290,h=7575
+[2020-08-06][23:35:14.538558][pyre][DEBUG] pyre shutdown
+[2020-08-07][22:50:27.112284][common][INFO] logger initialized
+[2020-08-07][22:50:28.388010][pyre][INFO] s=546290,h=7575
+[2020-08-07][22:50:59.059819][pyre][DEBUG] pyre shutdown
+[2020-08-07][22:58:00.039152][common][INFO] logger initialized
+[2020-08-07][22:58:00.068175][pyre][INFO] s=546290,h=7575
+[2020-08-07][22:58:58.906902][pyre][DEBUG] pyre shutdown
+[2020-08-07][23:00:58.611376][common][INFO] logger initialized
+[2020-08-07][23:00:58.639388][pyre][INFO] s=546290,h=7575
+[2020-08-07][23:02:34.142344][pyre][DEBUG] pyre shutdown
+[2020-08-08][01:15:18.926985][common][INFO] logger initialized
+[2020-08-08][01:15:19.370751][pyre][INFO] s=668863,h=7540
+[2020-08-08][01:21:44.309140][common][INFO] logger initialized
+[2020-08-08][01:21:44.470633][pyre][INFO] s=668921,h=4562
+[2020-08-08][01:23:11.618701][common][INFO] logger initialized
+[2020-08-08][01:23:11.749627][pyre][INFO] s=668925,h=210
+[2020-08-08][01:25:30.348362][common][INFO] logger initialized
+[2020-08-08][01:25:30.481286][pyre][INFO] s=668926,h=7104
+[2020-08-08][01:26:31.334824][common][INFO] logger initialized
+[2020-08-08][01:26:31.463771][pyre][INFO] s=668926,h=2064
+[2020-08-08][01:31:58.173570][common][INFO] logger initialized
+[2020-08-08][01:31:58.326502][pyre][INFO] s=669289,h=2864
+[2020-08-08][01:39:28.352468][common][INFO] logger initialized
+[2020-08-08][01:39:28.390446][pyre][INFO] s=669289,h=2864
+[2020-08-08][01:54:22.183507][common][INFO] logger initialized
+[2020-08-08][01:54:22.954239][pyre][INFO] s=669510,h=148
+[2020-08-08][01:57:56.012039][common][INFO] logger initialized
+[2020-08-08][01:57:56.162164][pyre][INFO] s=669508,h=1680
+[2020-08-08][02:03:09.343286][common][INFO] logger initialized
+[2020-08-08][02:03:09.481210][pyre][INFO] s=669446,h=5749
+[2020-08-08][02:05:13.384592][common][INFO] logger initialized
+[2020-08-08][02:05:13.515538][pyre][INFO] s=669446,h=4060
+[2020-08-08][02:06:32.030403][pyre][DEBUG] pyre shutdown
+[2020-08-23][21:27:13.088117][common][INFO] logger initialized
+[2020-08-23][21:27:14.341842][pyre][INFO] s=669446,h=4060
+[2020-08-23][21:44:36.447741][pyre][DEBUG] pyre shutdown
+[2020-08-26][11:08:18.628988][common][INFO] logger initialized
+[2020-08-26][11:08:19.602182][pyre][INFO] s=669446,h=4060
+[2020-08-26][11:09:12.296048][common][INFO] logger initialized
+[2020-08-26][11:09:12.336027][pyre][INFO] s=669446,h=4060
+[2020-08-26][11:09:38.766872][common][INFO] logger initialized
+[2020-08-26][11:09:38.803844][pyre][INFO] s=669446,h=4060
+[2020-08-26][13:07:05.832909][pyre][DEBUG] pyre shutdown
+[2020-08-28][15:49:56.530587][common][INFO] logger initialized
+[2020-08-28][15:49:57.234235][pyre][INFO] s=669446,h=4060
+[2020-08-28][15:50:16.207935][pyre][DEBUG] pyre shutdown
+[2020-08-28][15:59:20.075275][pyre][DEBUG] pyre shutdown
+[2020-09-12][08:14:48.175372][common][INFO] logger initialized
+[2020-09-12][08:14:49.052132][pyre][INFO] s=669446,h=4060
+[2020-09-12][08:19:53.791244][pyre][DEBUG] pyre shutdown
+[2020-09-12][08:28:47.719825][common][INFO] logger initialized
+[2020-09-12][08:28:47.746798][pyre][INFO] s=669446,h=4060
+[2020-09-12][07:00:51.415991][pyre][DEBUG] pyre shutdown

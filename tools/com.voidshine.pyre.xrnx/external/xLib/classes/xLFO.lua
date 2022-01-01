@@ -1,0 +1,1 @@
+class'xLFO'function xLFO.sine(a,b,c)local d=math.sin(math.rad(360*a))return cLib.scale_value(d,-1,1,b,c)end;function xLFO.triangle(a,b,c)local d=math.abs(a%1)return cLib.scale_value(d,0,1,b,c)end;function xLFO.square(a,b,c)local d=a<=0.5 and 1 or 0;return cLib.scale_value(d,0,1,b,c)end

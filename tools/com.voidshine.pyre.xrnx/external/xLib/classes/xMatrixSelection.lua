@@ -1,0 +1,1 @@
+class'xMatrixSelection'function xMatrixSelection.get_selection()TRACE("xMatrixSelection.get_selection()")local a={}for b,c in ipairs(rns.sequencer.pattern_sequence)do a[b]={}for d,e in ipairs(rns.tracks)do if rns.sequencer:track_sequence_slot_is_selected(d,b)then a[b][d]=true end end;if table.is_empty(a[b])then a[b]=nil end end;return a end

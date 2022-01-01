@@ -1,0 +1,1 @@
+local a=require'external.lunajson.decoder'local b=require'external.lunajson.encoder'local c=require'external.lunajson.sax'return{decode=a(),encode=b(),newparser=c.newparser,newfileparser=c.newfileparser}

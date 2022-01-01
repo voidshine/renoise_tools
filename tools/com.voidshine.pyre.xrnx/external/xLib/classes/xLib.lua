@@ -1,0 +1,1 @@
+class'xLib'xLib.COLOR_ENABLED={0xD0,0xD8,0xD4}xLib.COLOR_DISABLED={0x00,0x00,0x00}xLib.MIN_OSC_PORT=1024;xLib.MAX_OSC_PORT=65535;xLib.YIELD_AT={NONE=1,PATTERN=2,PARAMETER=3}function xLib.is_song_available()local a,b=pcall(function()rns.selected_instrument_index=rns.selected_instrument_index end)if not a then return false end;return true end
