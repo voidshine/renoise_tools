@@ -1,0 +1,85 @@
+[package]
+name = "mlua"
+version = "0.4.1"
+authors = ["Aleksandr Orlenko <zxteam@pm.me>", "kyren <catherine@chucklefish.org>"]
+edition = "2018"
+repository = "https://github.com/khvzak/mlua"
+documentation = "https://docs.rs/mlua"
+readme = "README.md"
+keywords = ["lua", "luajit", "async", "futures"]
+categories = ["api-bindings", "asynchronous"]
+license = "MIT"
+links = "lua"
+build = "build/main.rs"
+description = """
+High level bindings to Lua 5.4/5.3/5.2/5.1 (including LuaJIT)
+with async/await features and support of writing native lua modules in Rust.
+"""
+
+[badges]
+# github-actions = { repository = "khvzak/mlua", workflow = "CI" }
+maintenance = { status = "actively-developed" }
+
+[package.metadata.docs.rs]
+features = ["async", "send", "lua53"]
+
+[workspace]
+members = [
+    "mlua_derive",
+    "examples/module",
+    "tests/module",
+]
+
+[features]
+lua54 = []
+lua53 = []
+lua52 = []
+lua51 = []
+luajit = []
+vendored = ["lua-src", "luajit-src"]
+module = []
+async = ["futures-core", "futures-task", "futures-util"]
+send = []
+hacked = []
+
+[dependencies]
+bstr = { version = "0.2", features = ["std"], default_features = false }
+lazy_static = { version = "1.4" }
+num-traits = { version = "0.2.11" }
+futures-core = { version = "0.3.5", optional = true }
+futures-task = { version = "0.3.5", optional = true }
+futures-util = { version = "0.3.5", optional = true }
+
+[build-dependencies]
+cc = { version = "1.0" }
+pkg-config = { version = "0.3.17" }
+
+#lua-src = { version = "535.0.4", optional = true }
+lua-src = { path = "../lua-src-rs", optional = true }
+
+luajit-src = { version = "210.1.0", optional = true }
+
+[dev-dependencies]
+rustyline = "6.0"
+criterion = "0.3"
+trybuild = "1.0"
+futures = "0.3.5"
+hyper = "0.13"
+tokio = { version = "0.2", features = ["full"] }
+futures-timer = "3.0"
+
+[[bench]]
+name = "benchmark"
+harness = false
+
+[[example]]
+name = "async_http_client"
+required-features = ["async"]
+
+[[example]]
+name = "async_http_server"
+required-features = ["async", "send"]
+
+[[example]]
+name = "async_tcp_server"
+required-features = ["async"]

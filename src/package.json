@@ -1,0 +1,26 @@
+{
+  "name": "renoise_tools",
+  "version": "1.0.0",
+  "description": "voidshine tools for Renoise",
+  "main": "index.js",
+  "author": "voidshine",
+  "license": "MIT",
+  "scripts": {
+    "build_transforms": "tstl -p transforms/tsconfig.json",
+    "dev_transforms": "tstl -p transforms/tsconfig.json --watch",
+    "build_pyre": "tstl -p pyre/tsconfig.json",
+    "dev_pyre": "tstl -p pyre/tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.6",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-transform": "^3.0.5",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "lua-types": "^2.8.0",
+    "luamin": "^1.0.4",
+    "ts-node": "^8.10.1",
+    "typescript-to-lua": "^0.33.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,6 @@
+[submodule "src/external/xLib"]
+	path = src/external/xLib
+	url = https://github.com/renoise/xLib.git
+[submodule "src/external/cLib"]
+	path = src/external/cLib
+	url = https://github.com/renoise/cLib.git

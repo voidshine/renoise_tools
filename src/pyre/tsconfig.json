@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "outDir": "../gen/pyre",
+        "rootDir": "src",
+        // "rootDirs": ["src", "src/renoise_types"],
+        "target": "esnext",
+        "lib": ["esnext"],
+        "moduleResolution": "node",
+        "types": ["lua-types/jit", "./src/renoise_types"],
+        "strict": true,
+
+        // "experimentalDecorators": true,
+        
+        // Not used by tsc but used by tstl.
+        "plugins": [{ "transform": "../lua_index_transform" }]
+    },
+    "tstl": {
+        "luaLibImport": "require",
+        "luaTarget": "jit",
+        //"luaTarget": "5.1",  // 5.1 doesn't support switch statements (probably bc of goto implementation)
+        "noImplicitSelf": true,
+        //"sourceMapTraceback": true,
+
+        // Note: tstl bundling doesn't work because it doesn't declare functions at global/bundle scope first.
+        // "luaBundle": "pyre/main.lua",
+        // "luaBundleEntry": "src/main.ts"
+
+        // "luaPlugins": [
+            // {"name": "../renoise_types/index_shift_plugin.ts"}
+        // ]
+    }
+}

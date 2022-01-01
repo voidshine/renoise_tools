@@ -1,0 +1,32 @@
+[package]
+name = "pyre"
+version = "0.1.0"
+authors = ["skylark <skylark@SKYGLASS7910>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "pyre"
+crate-type = ["cdylib"]
+
+
+[dependencies]
+lazy_static = "1.4.0"
+#mlua = { version = "0.4.1", features = ["lua51", "vendored"] }
+#mlua = { version = "0.4.1", features = ["luajit", "module"] }
+#mlua = { version = "0.4.1", features = ["lua51", "vendored", "module"] }
+#mlua = { path = "../../../../github/external/mlua", features = ["lua51", "vendored"] }
+
+# The hack makes things faster (less "safety" features for trapping panics as opaque lua errors)
+#  and also makes bugs really obvious by doing full panic with backtrace output.
+mlua = { path = "../../external/mlua", features = ["lua51", "vendored", "hacked"] }
+#mlua = { path = "../../external/mlua", features = ["lua51", "vendored"] }
+
+#mlua_derive = "0.4.0"
+
+fire = { path = "../../../../rust/fire/lib/fire" }
+
+# TODO: Whew, not all this...
+common = { path = "../../../../rust/fire/lib/common" }
+

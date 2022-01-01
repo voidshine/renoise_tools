@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "../gen/transforms",
+        "rootDir": "src",
+        "target": "esnext",
+        "lib": ["esnext"],
+        "moduleResolution": "node",
+        "types": ["lua-types/jit"],
+        "strict": true
+    },
+    "tstl": {
+        "luaLibImport": "require",
+        "luaTarget": "JIT",
+        "noImplicitSelf": true,
+        "sourceMapTraceback": true,
+        "luaBundle": "transforms/main.lua",
+        "luaBundleEntry": "src/main.ts"
+    }
+}
