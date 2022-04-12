@@ -1,17 +1,14 @@
 # renoise_tools
 Tools for Renoise, including the `voidshine pyre` controller for Akai Fire.
 
-## Warning
-
-This is an unfinished hobby project, released unofficially & "as is" in case it
+## About
+This is an unfinished hobby project, released "as is" in case it
 will be of use to someone. If anyone wants to develop further, add
-documentation, etc. then please feel free to submit a pull request. I'll try to
-be responsive but do not in general have much time for support. I wrote this
-code a long time ago and even I don't remember all the functions, so the best
-way to learn how to use the tool is to try things out, watch the Renoise status text,
-and *read the code*!
+documentation, etc. then please feel free to submit a pull request.
 
-The source language is TypeScript so navigation with VS Code should be friendly.
+The best way to learn how to use the tool is to try things out,
+watch the Renoise status text, and read the code! The source
+language is TypeScript so navigation with VS Code should be friendly.
 
 ## Installation
 
